@@ -121,11 +121,12 @@ DATABASES = {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'sonic',
         'USER': 'postgres',
-        'PASSWORD': '1234',
-        'HOST': 'localhost',  # Or the IP address of your PostgreSQL server
+        'PASSWORD': 'postgres',
+        'HOST': '3.109.236.1',  # Or the IP address of your PostgreSQL server
         'PORT': '5432',  # Default port for PostgreSQL
     }
 }
+
 # Password validation
 AUTH_PASSWORD_VALIDATORS = [
     {
